@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: backend
   namespace: test
+  some_label: some_value
 spec:
   minReadySeconds: 3
   revisionHistoryLimit: 5
